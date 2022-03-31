@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <!-- <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title> -->
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+     Vincent Says!!
+    </h1>
+    <p>
+       Let's get started on Vincent Says. 
+      
+    </p>
+    
+    <pre>
+Directions:
+*Press the following boxes in the order they appear
+*If you choose wrong then you lose and must start over
+*Get through the entire sequence to win 
+*To Begin Press Start
+*If you would like to stop and restart press Stop
+    </pre>
+    
+    <button id="StartButton" onclick="startGame()">
+      Start
+    </button>
+    <button id="StopButton" class="hide"  onclick = "stopGame()">
+      Stop
+    </button>
+    
+    
+     <div id="GmaeButtonArea">
+     <button id="Button1" onclick = "guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+    </button>
+     <button id="Button2" onclick = "guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+    </button>
+     <button id="Button3" onclick = "guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+    </button>
+     <button id="Button4" onclick = "guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+    </button>
+    </div>
+    
+    
+  </body>
+</html>
