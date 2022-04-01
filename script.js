@@ -102,7 +102,7 @@ function playClueSequence() {
 
 function loseGame() {
   stopGame();
-  alert("You Lost");
+alert("You Lost");
 }
 
 function winGame() {
